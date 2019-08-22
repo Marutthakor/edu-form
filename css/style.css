@@ -1,0 +1,132 @@
+body,html{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    background-image: url(../images/bg.jpg);
+    background-repeat: no-repeat;
+}
+* {
+    box-sizing: border-box;
+}
+.main {
+    padding: 60px 0;
+    position: relative;
+}
+.container {
+    width: 586px;
+    background: #fff;
+    margin-left: 165px;
+    border-radius: 10px;
+    }
+.form-main{
+    display: block;
+     line-height: 1.8;
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+    color: #222;
+    font-family: 'Roboto Slab';
+    font-size: 20px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.appointment-form {
+    padding: 50px 60px 70px 60px;
+}
+.group1{
+    width: 100%;
+}
+.title{
+    width: 100%;
+    margin-bottom: 23px;
+    position: relative;
+}
+input[type="text"] {
+    
+    font-family: 'Roboto Slab';
+    border: none;
+    font-size: 16px;
+    font-weight: normal;
+    width: 100%;
+    font-size: 13px;
+    background: none;
+    padding:5px 0;
+    margin-bottom: 31px;
+        border-bottom: 2px solid #ebebeb;
+}
+input:focus{
+outline: none;
+    color: #222;
+    border-bottom: 2px solid #4966b1;
+}
+input {
+    border: none;
+}
+.form-group-2 {
+    margin-top: 15px;
+    margin-bottom: 30px;
+}
+h3 {
+    font-weight: bold;
+    color: #222;
+    font-size: 15px;
+    margin: 0px;
+    margin-bottom: 35px;
+        font-family: 'Roboto Slab';
+
+}
+.item-list{
+    display: inline-block;
+    width: 100%;
+    border-bottom: 2px solid #ebebeb;
+    margin-bottom: 31px;
+}
+
+.select-css{
+    display: block;
+    background: transparent;
+    color: #999999;
+    font-size: 13px;
+    width: 100%;
+    max-width: 100;
+    border: none;
+    padding: 5px 0px;
+}
+select:focus{
+    outline: none;
+}
+
+.form-g3 {
+    margin-bottom: 20px;
+}
+input[type="checkbox"] {
+    width: 2em;
+    margin: 0;
+    padding: 0;
+    font-size: 1em;
+/*    display: none;*/
+}
+.agree{
+    display: inline-block;
+    color: #999999;
+    margin-top: 7px;
+    margin-bottom: 25px;
+}
+.link{
+    color: #222222;
+    display: inline-block;
+}
+.form-submit{
+    display: block;
+}
+input[type="submit"] {
+    width: auto;
+    background: #4966b1;
+    color: #fff;
+    padding: 16px 17px;
+    font-size: 13px;
+    border: none;
+        cursor: pointer;
+    box-shadow: 0px 1px 15px 0px rgba(73, 102, 177, 0.7);
+    border-radius: 5px;
+}
